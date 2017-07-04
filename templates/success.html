@@ -1,18 +1,16 @@
-{% extends "base.html" %}
-{% block title %}Registration Successful{% endblock %}
-{% block head %}
- Registration Completed Successfully
-{% endblock %}
-{% block content %}
-    Thank you for registering.
+{% extends "base.html" %} 
+{% block title %}Success{% endblock %} 
+{% block head %} Registration Completed Successfully {% endblock %} 
+{% block content %} 
+<div style="margin-left:50px;">
     <h1>
-            Hello World
-        </h1>
-        <a href="/about">
-            <input type="button" value="About" />
-        </a>
-        <p>
-            Call Me Suhan
-        </p>
-        <img src="static/css/me.jpg" alt="some image"/>
+        Thank you for registering.
+    </h1>
+    
+    <p>
+        Call Me Suhan
+    </p>
+
+    <img src="/static/css/me.jpg" style="width: 400px;height: 300px;" alt="some image" />
+</div>
 {% endblock %}
